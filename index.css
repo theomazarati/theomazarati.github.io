@@ -1,0 +1,19 @@
+nav {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: black;
+    padding: 35px;
+}
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+text {
+    font-size: 50px;
+    color:blueviolet
+}
