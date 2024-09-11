@@ -17,3 +17,72 @@ text {
     font-size: 50px;
     color:blueviolet
 }
+
+img {
+    padding: 100px;
+    clip-path: inset(0 0 107px 0); /* Crop 20px from the bottom */
+}
+
+body {
+    font-family: 'Merienda', sans-serif;
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Initial text color */
+    font-size: 1rem;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Styles for hover effect */
+a:hover {
+    color: rgb(13, 0, 255); /* Color to fade to on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Dark background to enhance glow effect */
+    margin: 20px;
+}
+
+nav a {
+    display: inline-block; /* Ensure links are inline-block for spacing */
+    margin-right: 15px; /* Space between links */
+    font-size: 1.5rem; /* Font size */
+    color: #ccc; /* Initial text color */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    color: #ba0000; /* Change text color on hover */
+    text-shadow: 0 0 5px #ff0000; /* Subtle glowing effect */
+}
+
+body {
+    font-family: Merienda;
+    color: #920303cb; /* Default text color */
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    font-family: Merienda;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Initial state for the h1 element */
+.color-fade {
+    color: black; /* Initial text color */
+    animation: colorFade 5s ease-in forwards; /* Apply animation */
+}
+
+/* Define the keyframes for the color fade effect */
+@keyframes colorFade {
+    from {
+        color: black; /* Start with black text */
+    }
+    to {
+        color: rgb(159, 0, 0); /* End with red text */
+    }
+}
