@@ -1,0 +1,39 @@
+img {
+    float: left;
+}
+
+p {
+    float: left;
+    color: azure;
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    font-size: 4em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* Prevents wrapping to the next line */
+    align-items: flex-start;
+    max-width: 1000px; /* Increase the container width if needed */
+    margin: 0px;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+    padding-right: 30px; /* Adjust this value */
+    font-size: 0.8em;
+    margin-left: 25px;
+}
+
+body {
+    margin: 150px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'Arial';
+}
