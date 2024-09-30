@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    transform: rotate(90deg);
+    background-color: grey;
+    transform: rotate(45deg);
 }
 
 p {
