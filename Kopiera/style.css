@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid: auto / 20% 1fr;
+}
+
+aside {
+    background-color: rgba(210, 105, 30, 0.626);
+}
+
+.profile {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+
+.profile img {
+    max-width: 300px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 3px solid #232323;
+}
+
+main {
+    background: chocolate;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+}
+
+li {
+    background-color: blueviolet;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.menu li a {
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    font-size: 64px;
+    border-bottom: 3px solid white;
+}

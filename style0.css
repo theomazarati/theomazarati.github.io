@@ -3,14 +3,14 @@ body {
     transform: rotate(90deg);
 }
 
-a {
+p {
     pointer-events: none;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 img {
-    opacity: 25%;
+    opacity: 50%;
     width: 100%;
     height: 100%;
 }
