@@ -33,7 +33,7 @@ body {
     font-size: 24px;
     font-weight: bold;
 
-    background-color: #f6f0e0;
+    background-color: #ccc4b8;
     grid-row: 1 / 3;
    grid-column: 1 / 3; 
    z-index: 9999;
@@ -42,6 +42,7 @@ body {
    display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
+    box-shadow: 3px 3px 3px #232323aa;
 }
 
 
@@ -103,4 +104,5 @@ body {
     display: flex;
     justify-content: center;
     margin: 20px 0;
+    scale
 }
