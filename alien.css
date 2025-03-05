@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f8f8;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -12,18 +12,18 @@ body {
 }
 
 .header {
-  background-color: #d9534f;
-  color: white;
+  background-color: #d93630;
+  color: rgb(0, 0, 0);
   padding: 30px 0;
   margin: 0;
 }
 
 .columns {
-  display: flex;
+  display: none;
   justify-content: space-around;
   margin: 20px 0;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
   margin: 0;
 }
 
@@ -33,26 +33,37 @@ body {
 }
 
 #column1 {
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(255, 255, 255);
 }
 
 #column2 {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
 }
 
 #column3 {
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(255, 255, 255);
 }
 
 h1 {
   font-size: 2rem;
   text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1:hover {
+  background-color: darkred;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 h2 {
   font-size: 1.5rem;
   margin-bottom: 20px;
+  color: rgb(255, 255, 255);
 }
 
 #UnknownAlien1{
